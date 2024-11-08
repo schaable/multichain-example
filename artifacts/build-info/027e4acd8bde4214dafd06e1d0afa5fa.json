@@ -1,0 +1,37 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "027e4acd8bde4214dafd06e1d0afa5fa",
+  "solcVersion": "0.8.24",
+  "solcLongVersion": "0.8.24+commit.e11b9ed9",
+  "publicSourceNameMap": {
+    "contracts/Counter.sol": "contracts/Counter.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "contracts/Counter.sol": {
+        "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.24;\n\ncontract Counter {\n  uint public x;\n\n  function inc() public {\n    x++;\n  }\n}\n"
+      }
+    },
+    "settings": {
+      "evmVersion": "shanghai",
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ]
+        },
+        "contracts/Counter.sol": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ]
+        }
+      },
+      "remappings": []
+    }
+  }
+}

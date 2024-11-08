@@ -1,0 +1,11 @@
+{
+  "name": "multichain-example",
+  "type": "module",
+  "devDependencies": {
+    "@ignored/hardhat-vnext": "^3.0.0-next.15",
+    "@ignored/hardhat-vnext-viem": "^3.0.0-next.10",
+    "@types/node": "^22.9.0",
+    "typescript": "~5.5.0",
+    "viem": "^2.21.40"
+  }
+}
